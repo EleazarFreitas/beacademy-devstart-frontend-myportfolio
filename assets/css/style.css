@@ -169,7 +169,11 @@ main a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .case img {
-    width: 365px;
+    width: 33.3%;
+}
+.case :nth-child(2) {
+    transform: scale(1.3);
 }
