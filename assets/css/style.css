@@ -125,3 +125,12 @@ main a {
     display: inline-block;
     font-size: 32px;
 }
+.sobre {
+    color: white;
+    background-color: grey;
+    margin: 52px 0;
+    padding: 60px 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
