@@ -82,3 +82,46 @@ main a {
     border: 2px solid white;
     border-radius: 24px;
 }
+.cards{
+    display: flex;
+    color: black;
+    margin: 0 112px;
+}
+.card-zero {
+    width: 25%;
+}
+.card-zero h3{
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+}
+.amarelo {
+    color: #DCF64B;
+}
+.card-lorem {
+    background-color: white;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.card-active {
+    background-color: #DCF64B !important;
+}
+.card {
+    width: 25%;
+    padding: 50px 16px;
+    background-color: white;
+    margin-left: 33px;
+    border-radius: 4px;
+}
+.card :nth-child(1) {
+    display: inline-block;
+    font-size: 64px;
+    padding-bottom: 55px;
+}
+.card-span {
+    display: inline-block;
+    font-size: 32px;
+}
