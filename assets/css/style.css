@@ -222,3 +222,12 @@ button {
     margin-left: auto;
     cursor: pointer;
 }
+footer {
+    padding: 50px 0;
+    background-color: #0C0C0C;
+    text-align: center;
+}
+footer span {
+    font-size: 16px;
+    color: white;
+}
