@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* reset básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    border: 1px solid red;
+}
+body {
+    max-width: 1440px;
+    background-color: black;
+}
+.hero {
+    background: radial-gradient(transparent,rgba(0, 0, 0, 0.5),black,black), url(/assets/img/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    margin: 0 112px;
+}
+.logo {
+    height: 53px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.lista a {
+    padding-right: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #DCF64B;
+}
+.lista :nth-child(3) {
+    background-color: #DCF64B;
+    color: black;
+    padding: 10px 24px;
+    border-radius: 24px;
+}
+.social-nav img{
+    padding-left: 48px;
+    height: 20px;
+}
