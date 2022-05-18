@@ -71,6 +71,8 @@ main h1 {
     color: white;
 }
 .curso {
+    display: inline-block;
+    padding-top: 32px;
     font-size: 24px;
     color: white;
 }
