@@ -10,6 +10,7 @@
 body {
     max-width: 1440px;
     background-color: black;
+    scroll-behavior: smooth;
 }
 .hero {
     background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.5), black, black), url(../img/hero.png);
