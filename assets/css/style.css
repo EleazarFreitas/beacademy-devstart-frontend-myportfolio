@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 .hero {
-    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.5), black, black), url(./assets/img/hero.png);
+    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.5), black, black), url(../img/hero.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
