@@ -6,14 +6,13 @@
     box-sizing: border-box;
     font-family: Inter, sans-serif;
     text-decoration: none;
-    border: px solid red;
 }
 body {
     max-width: 1440px;
     background-color: black;
 }
 .hero {
-    background: radial-gradient(transparent,rgba(0, 0, 0, 0.5),black,black), url(/assets/img/hero.png);
+    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.5), black, black), url(./assets/img/hero.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
