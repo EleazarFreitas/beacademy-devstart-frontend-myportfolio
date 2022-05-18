@@ -210,11 +210,10 @@ main a:hover {
     transition: all ease 0.3s;
 }
 .contato {
-    margin: 0 112px;
+    margin: 0 214px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 180px;
     margin-bottom: 50px;
 }
 .contato h2 {
@@ -228,20 +227,28 @@ main a:hover {
 form {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
 }
 input, textarea {
     margin-bottom: 30px;
     background-color: #0C0C0C;
     border: transparent;
+    width: 100%;
+    max-width: 480px;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
 }
+
 input {
-    padding: 32px 180px;
+    height: 64px;
 }
 input:hover, textarea:hover {
     border: 1px solid #DCF64B;
 }
 textarea {
-    padding: 64px 180px ;
+    height: 160px;
     resize: none;
 }
 button {
